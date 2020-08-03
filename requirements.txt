@@ -18,3 +18,4 @@ requests==2.22.0
 python-jwt==3.2.6
 gcloud==0.18.3
 sseclient==0.0.26
+requests-toolbelt==0.9.1
