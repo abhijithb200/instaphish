@@ -4,7 +4,7 @@ import smtplib
 from firebase import firebase
 
 
-firebase = firebase.FirebaseApplication('https://alpine-gasket-284418.firebaseio.com')
+firebase = firebase.FirebaseApplication('take firebase account to handle db')
 app = Flask(__name__)
 
 @app.route('/<user>')
